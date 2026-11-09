@@ -1,0 +1,6 @@
+Fantasy chess artwork by Maurizio Monge. License: MIT.
+Original author: https://github.com/maurimo/chess-art
+Source images: https://github.com/lichess-org/lila/tree/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy
+License confirmation: https://github.com/lichess-org/lila/blob/104a754b35740129fade423f920ad6de965031dd/COPYING.md
+Full license: ../../Licenses/chess-art-MIT.txt
+SVG images are included locally without modification.

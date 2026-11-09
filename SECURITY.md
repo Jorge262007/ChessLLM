@@ -1,0 +1,5 @@
+# Security
+
+Never commit API keys. Each visitor enters their own key in the masked input. The app does not store it in localStorage, cookies or files, and sends it only directly to Google using an authentication header. The browser owner, extensions and developer tools can inspect credentials in memory; GitHub Pages cannot provide server-side secrets. Restrict your key to the Gemini API and appropriate website origins using Google account controls. Revoke exposed keys.
+
+This website has no analytics or account database. Board state/history are sent to Google only when Gemini is selected for an AI mode. Local GGUF inference stays on this machine. The optional Windows companion binds to loopback, validates Host and Origin, and requires a random session token. Its child llama-server also requires a separate random API key. Do not expose or reverse-proxy either service to the network. Do not add untrusted third-party scripts to the same origin. File security reports privately to the maintainer of the hosting repository; omit keys and private browser logs from public issues.

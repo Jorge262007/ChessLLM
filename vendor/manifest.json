@@ -1,0 +1,96 @@
+[
+  {
+    "file": "vendor/chess.js",
+    "url": "https://cdn.jsdelivr.net/npm/chess.js@1.4.0/dist/esm/chess.js",
+    "sha256": "76c7c34f0e2e9ab076521a5d6fe786a9cce537bb1b6f29d32a9c9970b5b232d2"
+  },
+  {
+    "file": "Licenses/chess.js-BSD-2-Clause.txt",
+    "url": "https://raw.githubusercontent.com/jhlywa/chess.js/v1.4.0/LICENSE",
+    "sha256": "0b3a3c2b4432a26bb18f9d06f5bba4de015bcc980306b7db28b06025495e2186"
+  },
+  {
+    "file": "assets/pieces/wK.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wK.svg",
+    "sha256": "d806f0d0a94bc1f8d71089a1a12370cea46806dd0dd6d758b04817b831c6ecd2",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/wQ.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wQ.svg",
+    "sha256": "ac53d7b2106532f7c3090531575cf39d5a3315530061be4390f245f6f19f05e4",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/wR.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wR.svg",
+    "sha256": "e4934c4d25d24c7dd2b9e6df4e546c5efbbba09a7d63cb4c72cbc2ae36f32384",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/wB.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wB.svg",
+    "sha256": "3042d9f3359402759d13c5c23bd66129e7cbc63233a9d108312047de63cec904",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/wN.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wN.svg",
+    "sha256": "bb532c0c19727613fe3385d556c99815f5ef5ba4cb75cc07e3e4554ae50e9d0e",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/wP.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wP.svg",
+    "sha256": "07105c9aa3fdf172cc51480521ae3401fbfc33cfaab780ffc332d43859d963e6",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/bK.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bK.svg",
+    "sha256": "023b003765e5c812007d02fb92b7d72eaafd535075d2ffeb209dc4a841f9524a",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/bQ.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bQ.svg",
+    "sha256": "6c667a1b37d6dec21b2b72238991fbb87b936c5048cdd481e6dc43b2bbd422e5",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/bR.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bR.svg",
+    "sha256": "236d1fa4d39bd5563ecbde3453ac80d0b0266a570a7f7644b8ba7902380c14f1",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/bB.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bB.svg",
+    "sha256": "6e7e079b8c73b066537a6ce2623a14b65d1d625a408af8f42f5cffe3ea798e63",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/bN.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bN.svg",
+    "sha256": "aa8eb58d10722fca992dff04985d16165a7b8cf8a3a231c426dc7685a6981040",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  },
+  {
+    "file": "assets/pieces/bP.svg",
+    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bP.svg",
+    "sha256": "09b98781c32a4933533a3dfd3fa7ce20618f36827b3d649f69ac32dd7b82469c",
+    "license": "MIT",
+    "author": "Maurizio Monge"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "release": "https://github.com/ggml-org/llama.cpp/releases/tag/b12143",
+  "tag": "b12143",
+  "backends": {
+    "vulkan": {
+      "name": "llama-b12143-bin-win-vulkan-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12143/llama-b12143-bin-win-vulkan-x64.zip",
+      "sha256": "293ab85762b3d2722fc55d6e6db906546971c2b4802de84ec5ca542397314340",
+      "size": 37683147
+    },
+    "cpu": {
+      "name": "llama-b12143-bin-win-cpu-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12143/llama-b12143-bin-win-cpu-x64.zip",
+      "sha256": "41ff350f7f4cef938ecaa4cb69e91cd79adfe76d09652f4bd7e325988dad7b99",
+      "size": 24731243
+    },
+    "cuda": {
+      "name": "llama-b12143-bin-win-cuda-13.4-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12143/llama-b12143-bin-win-cuda-13.4-x64.zip",
+      "sha256": "a7ac9631f3a5c8e22188dcf455cefdc31ef6e8e07bb2575da354ff1363b497dd",
+      "size": 170770075
+    },
+    "cuda-libraries": {
+      "name": "cudart-llama-bin-win-cuda-13.4-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12143/cudart-llama-bin-win-cuda-13.4-x64.zip",
+      "sha256": "738f8c251ac22b70c3ae6f83a10cf222725df0395246a2cf58f32bdb85fbe668",
+      "size": 423535356
+    }
+  }
+}
