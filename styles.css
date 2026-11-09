@@ -2,3 +2,12 @@
 [hidden]{display:none!important}textarea{width:100%;resize:vertical;background:#222a36;color:var(--ink);border:1px solid #3a4c62;border-radius:8px;padding:12px;font:13px/1.6 ui-monospace,monospace}.prompt-editor{margin-top:18px;color:var(--muted)}.prompt-editor summary{cursor:pointer;color:var(--mint)}.prompt-editor label{margin:14px 0}.prompt-editor p,#nativeStatus{font-size:12px;line-height:1.6}#localSettings{margin-top:14px}
 
 input[type=file]{max-width:100%;width:300px}input::file-selector-button{background:#354a67;color:#f0f4fa;border:0;border-radius:4px;padding:6px 10px;margin-right:10px;cursor:pointer}.badge{letter-spacing:1px}h1 span{color:#e4e9f2}.square.selected{box-shadow:inset 0 0 0 4px #b49a54}#localSettings>label{max-width:100%}#nativeStatus{flex-basis:100%;color:#9fb9d7}
+
+/* Keep every board track equal regardless of piece image dimensions. */
+#board{grid-template-rows:repeat(8,minmax(0,1fr));grid-template-columns:repeat(8,minmax(0,1fr))}.square{min-width:0;min-height:0;overflow:hidden}.square img{position:absolute;width:86%;height:86%}
+
+/* Board geometry is independent of every piece, label and animation ghost. */
+#board{display:block;contain:layout;aspect-ratio:1/1;padding:0;border:0}
+#board>.square{position:absolute;width:12.5%;height:12.5%;min-width:0;min-height:0;max-width:12.5%;max-height:12.5%;margin:0;padding:0;border:0;box-sizing:border-box;contain:size layout;transition:background .15s;transform:none}
+#board>.square>img{position:absolute;left:7%;top:7%;width:86%;height:86%;max-width:86%;max-height:86%;margin:0;display:block;object-fit:contain}
+#board>.ghost{position:absolute;contain:strict;max-width:none;max-height:none}
