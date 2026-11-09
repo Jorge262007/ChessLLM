@@ -1,6 +1,7 @@
-Fantasy chess artwork by Maurizio Monge. License: MIT.
-Original author: https://github.com/maurimo/chess-art
-Source images: https://github.com/lichess-org/lila/tree/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy
-License confirmation: https://github.com/lichess-org/lila/blob/104a754b35740129fade423f920ad6de965031dd/COPYING.md
-Full license: ../../Licenses/chess-art-MIT.txt
-SVG images are included locally without modification.
+Wikipedia / Cburnett chess pieces, Colin M. L. Burnett.
+PNG source: https://github.com/oakmac/chessboardjs/tree/master/website/img/chesspieces/wikipedia
+Package: chessboard.js, Chris Oakman (MIT).
+Artwork attribution and licensing: https://github.com/lichess-org/lila/blob/master/COPYING.md (Cburnett, GPL v2 or later). See Licenses/GPL-3.0.txt and Licenses/cburnett-source-credits.md.
+Images stored locally for offline use.
+
+Distributed under GPLv3 (GPL-2.0-or-later). Editable SVG sources are included in cburnett-source/. Original application code is separately MIT licensed.

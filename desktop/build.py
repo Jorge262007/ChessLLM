@@ -17,6 +17,7 @@ def main():
     manifest=json.loads((ROOT/'desktop'/'runtime-manifest.json').read_text())
     cache=OUT/'download-cache';cache.mkdir(exist_ok=True)
     for key,item in manifest['backends'].items():
+        if key!='cpu':continue
         archive=cache/item['name']
         if not archive.exists() or hashlib.sha256(archive.read_bytes()).hexdigest()!=item['sha256']:
             print('Downloading',item['name'],flush=True);urllib.request.urlretrieve(item['url'],archive)
@@ -31,6 +32,6 @@ def main():
     # Explicit allowlist: never include user models, runtime logs or credentials.
     with zipfile.ZipFile(OUT/'ChessLLM-Windows-x64.zip','w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for path in TARGET.rglob('*'):
-            if path.is_file() and (path.relative_to(TARGET).parts[0] in ['web','runtime','Licenses'] or path.name in ['ChessLLM.exe','LICENSE','PUT-GGUF-MODELS-HERE.txt']):z.write(path,Path('ChessLLM-Windows')/path.relative_to(TARGET))
+            if path.is_file() and not (path.relative_to(TARGET).parts[0]=='runtime' and path.relative_to(TARGET).parts[1]!='cpu') and (path.relative_to(TARGET).parts[0] in ['web','runtime','Licenses'] or path.name in ['ChessLLM.exe','LICENSE','PUT-GGUF-MODELS-HERE.txt']):z.write(path,Path('ChessLLM-Windows')/path.relative_to(TARGET))
     print('Ready:',OUT/'ChessLLM-Windows-x64.zip')
 if __name__=='__main__':main()

@@ -10,3 +10,5 @@ const html=await readFile(new URL('index.html',import.meta.url),'utf8');assert(!
 
 const custom=payload(state,'Low','','Custom Gemini policy');assert.equal(custom.systemInstruction.parts[0].text,'Custom Gemini policy');
 const {localPayload}=await import('./local.js');const local=localPayload(state,'High','Custom local policy');assert(local.messages[0].content.startsWith('Custom local policy'));assert.equal(local.reasoning_budget_tokens,4096);assert.deepEqual(local.response_format.json_schema.schema.properties.move.enum,state.legal_moves_uci);assert.equal(localPayload(state,'Off','').chat_template_kwargs.enable_thinking,false);console.log('Custom prompts and local inference payload checks passed.');
+
+assert(html.includes('id="ggufFile"'));assert(!html.includes('id="backend"'));const app=await readFile(new URL('app.js',import.meta.url),'utf8');assert(app.includes("piece.type.toUpperCase()+'.png'"));const localSource=await readFile(new URL('local.js',import.meta.url),'utf8');assert(localSource.includes('n_gpu_layers:0'));assert(localSource.includes('n_threads:1'));console.log('Browser GGUF file picker, CPU-only inference and desktop artwork checks passed.');

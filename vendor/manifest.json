@@ -1,96 +1,128 @@
-[
-  {
-    "file": "vendor/chess.js",
-    "url": "https://cdn.jsdelivr.net/npm/chess.js@1.4.0/dist/esm/chess.js",
-    "sha256": "76c7c34f0e2e9ab076521a5d6fe786a9cce537bb1b6f29d32a9c9970b5b232d2"
-  },
-  {
-    "file": "Licenses/chess.js-BSD-2-Clause.txt",
-    "url": "https://raw.githubusercontent.com/jhlywa/chess.js/v1.4.0/LICENSE",
-    "sha256": "0b3a3c2b4432a26bb18f9d06f5bba4de015bcc980306b7db28b06025495e2186"
-  },
-  {
-    "file": "assets/pieces/wK.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wK.svg",
-    "sha256": "d806f0d0a94bc1f8d71089a1a12370cea46806dd0dd6d758b04817b831c6ecd2",
+{
+  "previous_assets": [
+    {
+      "file": "vendor/chess.js",
+      "url": "https://cdn.jsdelivr.net/npm/chess.js@1.4.0/dist/esm/chess.js",
+      "sha256": "76c7c34f0e2e9ab076521a5d6fe786a9cce537bb1b6f29d32a9c9970b5b232d2"
+    },
+    {
+      "file": "Licenses/chess.js-BSD-2-Clause.txt",
+      "url": "https://raw.githubusercontent.com/jhlywa/chess.js/v1.4.0/LICENSE",
+      "sha256": "0b3a3c2b4432a26bb18f9d06f5bba4de015bcc980306b7db28b06025495e2186"
+    },
+    {
+      "file": "assets/pieces/wK.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wK.svg",
+      "sha256": "d806f0d0a94bc1f8d71089a1a12370cea46806dd0dd6d758b04817b831c6ecd2",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/wQ.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wQ.svg",
+      "sha256": "ac53d7b2106532f7c3090531575cf39d5a3315530061be4390f245f6f19f05e4",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/wR.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wR.svg",
+      "sha256": "e4934c4d25d24c7dd2b9e6df4e546c5efbbba09a7d63cb4c72cbc2ae36f32384",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/wB.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wB.svg",
+      "sha256": "3042d9f3359402759d13c5c23bd66129e7cbc63233a9d108312047de63cec904",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/wN.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wN.svg",
+      "sha256": "bb532c0c19727613fe3385d556c99815f5ef5ba4cb75cc07e3e4554ae50e9d0e",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/wP.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wP.svg",
+      "sha256": "07105c9aa3fdf172cc51480521ae3401fbfc33cfaab780ffc332d43859d963e6",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/bK.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bK.svg",
+      "sha256": "023b003765e5c812007d02fb92b7d72eaafd535075d2ffeb209dc4a841f9524a",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/bQ.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bQ.svg",
+      "sha256": "6c667a1b37d6dec21b2b72238991fbb87b936c5048cdd481e6dc43b2bbd422e5",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/bR.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bR.svg",
+      "sha256": "236d1fa4d39bd5563ecbde3453ac80d0b0266a570a7f7644b8ba7902380c14f1",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/bB.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bB.svg",
+      "sha256": "6e7e079b8c73b066537a6ce2623a14b65d1d625a408af8f42f5cffe3ea798e63",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/bN.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bN.svg",
+      "sha256": "aa8eb58d10722fca992dff04985d16165a7b8cf8a3a231c426dc7685a6981040",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    },
+    {
+      "file": "assets/pieces/bP.svg",
+      "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bP.svg",
+      "sha256": "09b98781c32a4933533a3dfd3fa7ce20618f36827b3d649f69ac32dd7b82469c",
+      "license": "MIT",
+      "author": "Maurizio Monge"
+    }
+  ],
+  "browser_engine": {
+    "name": "@wllama/wllama",
+    "version": "3.13.0",
+    "source": "https://registry.npmjs.org/@wllama/wllama/-/wllama-3.13.0.tgz",
     "license": "MIT",
-    "author": "Maurizio Monge"
+    "files": {
+      "index.js": "fffd95c16ca191f31f4303664a05189c43d0cb20c52b67276c04e8857b138b64",
+      "wllama.wasm": "79ac5be917b71d50571a4f584436a9f6baf6b6e57719d094ed8bd950e9a65780",
+      "package.json": "2101e4e8111c62a2885c234e7e19b5ee60a996d720090c7d34058abffcca8aed"
+    }
   },
-  {
-    "file": "assets/pieces/wQ.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wQ.svg",
-    "sha256": "ac53d7b2106532f7c3090531575cf39d5a3315530061be4390f245f6f19f05e4",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/wR.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wR.svg",
-    "sha256": "e4934c4d25d24c7dd2b9e6df4e546c5efbbba09a7d63cb4c72cbc2ae36f32384",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/wB.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wB.svg",
-    "sha256": "3042d9f3359402759d13c5c23bd66129e7cbc63233a9d108312047de63cec904",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/wN.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wN.svg",
-    "sha256": "bb532c0c19727613fe3385d556c99815f5ef5ba4cb75cc07e3e4554ae50e9d0e",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/wP.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/wP.svg",
-    "sha256": "07105c9aa3fdf172cc51480521ae3401fbfc33cfaab780ffc332d43859d963e6",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/bK.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bK.svg",
-    "sha256": "023b003765e5c812007d02fb92b7d72eaafd535075d2ffeb209dc4a841f9524a",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/bQ.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bQ.svg",
-    "sha256": "6c667a1b37d6dec21b2b72238991fbb87b936c5048cdd481e6dc43b2bbd422e5",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/bR.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bR.svg",
-    "sha256": "236d1fa4d39bd5563ecbde3453ac80d0b0266a570a7f7644b8ba7902380c14f1",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/bB.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bB.svg",
-    "sha256": "6e7e079b8c73b066537a6ce2623a14b65d1d625a408af8f42f5cffe3ea798e63",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/bN.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bN.svg",
-    "sha256": "aa8eb58d10722fca992dff04985d16165a7b8cf8a3a231c426dc7685a6981040",
-    "license": "MIT",
-    "author": "Maurizio Monge"
-  },
-  {
-    "file": "assets/pieces/bP.svg",
-    "url": "https://raw.githubusercontent.com/lichess-org/lila/104a754b35740129fade423f920ad6de965031dd/public/piece/fantasy/bP.svg",
-    "sha256": "09b98781c32a4933533a3dfd3fa7ce20618f36827b3d649f69ac32dd7b82469c",
-    "license": "MIT",
-    "author": "Maurizio Monge"
+  "displayed_pieces": {
+    "author": "Colin M. L. Burnett",
+    "license": "GPL-2.0-or-later (distributed under GPLv3)",
+    "source": "https://github.com/oakmac/chessboardjs/tree/master/website/img/chesspieces/wikipedia",
+    "sha256": {
+      "bB.png": "670d669100cf7cfd08c2729d9bebb01b5a4e42dc376e6cb502afe4f05fb4a600",
+      "bK.png": "c3addc101ab6f2165857fcd799a5ac728d78f6823d7004c1c7548cb62b84e05c",
+      "bN.png": "bd7f71976cd28a7bc0479b551031cde53ede5b5e454d612222c2a184779dfd9a",
+      "bP.png": "a375ca340e6c5ad22245a9da1d2ba99e6d27013c6af06423ee1480fb92f17c49",
+      "bQ.png": "4071a8569386152a6286a5597ea79039c10f539808433247b3b7d98425f25712",
+      "bR.png": "2f94d399fcd37abfa483e282c93aceddbd56780ea325b07fa66ad9a5ce6268f4",
+      "wB.png": "c10edcf5ff649c7e89eb91e31a167c9b37c3febae9634caeec472abddaf89bb9",
+      "wK.png": "4cdcdd4680a0d527891fb3c831f214de39eee19f43efa13d0c4c54ccd600ab09",
+      "wN.png": "539d3d56e9e6486f9f326e6110f723b83c78a3a41bd468f7155ff124ccb0718b",
+      "wP.png": "9bf2286c59507adb7a6045c212a6b92a9defd7e9a5bbae30e82bb83216c43cb1",
+      "wQ.png": "05cb6801d02f39363977f6d7ae9a40f605b2aa69866e9086868c08e1df17f875",
+      "wR.png": "175ea2252a01052113dff85380e8237246448c762ae303ae2a348d971ba0800b"
+    }
   }
-]
+}
