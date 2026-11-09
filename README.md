@@ -14,9 +14,9 @@ One English-language chess interface for GitHub Pages and Windows desktop: dark 
 - Every AI move receives the updated 8 x 8 board, FEN, legal moves, history and attacked pieces. Default instructions ask for tactical threats and one or two moves of lookahead; this is a prompt, not a guarantee of chess strength. Final moves must be legal JSON moves.
 - Match mode, side, difficulty, model and compute backend lock during a match. Pause stops applying/displaying the next move; active inference may finish in the background. Stop unlocks match settings.
 
-## GitHub Pages
+## Live page
 
-Upload the **contents of this folder** to a GitHub repository, so `index.html` is at the root. Under **Settings > Pages**, choose **Deploy from a branch**, `main`, `/ (root)`. Alternatively use the included Pages workflow with GitHub Actions. Relative URLs support repository Pages sites.
+[Play ChessLLM online](https://jorge262007.github.io/chessllm/)
 
 Pages supports Gemini and the browser chess CPU. Browsers cannot directly load native CUDA or Vulkan DLLs. To run a local GGUF, open **ChessLLM.exe** from the desktop package: it serves this exact same HTML, CSS, images and JavaScript on loopback and opens your browser. The interface and features are shared, including both prompt editors. No separate desktop UI is maintained.
 
