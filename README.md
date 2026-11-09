@@ -16,7 +16,7 @@ One English-language chess interface for GitHub Pages and Windows desktop: dark 
 
 ## Live page
 
-[Play ChessLLM online](https://jorge262007.github.io/chessllm/)
+[Play ChessLLM online](https://jorge262007.github.io/ChessLLM/)
 
 Pages supports Gemini and the browser chess CPU. Browsers cannot directly load native CUDA or Vulkan DLLs. To run a local GGUF, open **ChessLLM.exe** from the desktop package: it serves this exact same HTML, CSS, images and JavaScript on loopback and opens your browser. The interface and features are shared, including both prompt editors. No separate desktop UI is maintained.
 
